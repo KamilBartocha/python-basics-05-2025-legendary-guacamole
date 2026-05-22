@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <product><sku>SKU-001</sku><name>Laptop Dell XPS 15</name>          <price>5499.00</price><category>Komputery</category><stock>12</stock></product>
+    <product><sku>SKU-002</sku><name>MacBook Air M2</name>               <price>6299.00</price><category>Komputery</category><stock>8</stock></product>
+    <product><sku>SKU-003</sku><name>Mysz Logitech MX Master 3</name>    <price>299.00</price> <category>Peryferia</category> <stock>45</stock></product>
+    <product><sku>SKU-004</sku><name>Klawiatura Keychron K2</name>       <price>449.00</price> <category>Peryferia</category> <stock>23</stock></product>
+    <product><sku>SKU-005</sku><name>Monitor Samsung 24</name>           <price>899.00</price> <category>Monitory</category>  <stock>17</stock></product>
+    <product><sku>SKU-006</sku><name>Sluchawki Sony WH-1000XM5</name>    <price>1299.00</price><category>Audio</category>     <stock>31</stock></product>
+    <product><sku>SKU-007</sku><name>Monitor LG 27</name>                <price>1199.00</price><category>Monitory</category>  <stock>9</stock></product>
+    <product><sku>SKU-008</sku><name>Webcam Logitech C920</name>         <price>349.00</price> <category>Peryferia</category> <stock>54</stock></product>
+    <product><sku>SKU-009</sku><name>Dysk SSD Samsung 1TB</name>         <price>399.00</price> <category>Pamieci</category>   <stock>67</stock></product>
+    <product><sku>SKU-010</sku><name>Laptop Lenovo ThinkPad X1</name>    <price>4299.00</price><category>Komputery</category> <stock>6</stock></product>
+    <product><sku>SKU-011</sku><name>Tablet iPad Air</name>              <price>3299.00</price><category>Tablety</category>   <stock>14</stock></product>
+    <product><sku>SKU-012</sku><name>Drukarka HP LaserJet Pro</name>     <price>1899.00</price><category>Drukarki</category>  <stock>11</stock></product>
+    <product><sku>SKU-013</sku><name>Router TP-Link AX3000</name>        <price>299.00</price> <category>Siec</category>      <stock>38</stock></product>
+    <product><sku>SKU-014</sku><name>Pendrive Kingston 64GB</name>       <price>49.00</price>  <category>Pamieci</category>   <stock>112</stock></product>
+    <product><sku>SKU-015</sku><name>Powerbank Anker 20000mAh</name>     <price>199.00</price> <category>Akcesoria</category> <stock>29</stock></product>
+    <product><sku>SKU-016</sku><name>Kabel USB-C 2m</name>               <price>39.00</price>  <category>Akcesoria</category> <stock>203</stock></product>
+    <product><sku>SKU-017</sku><name>Hub USB 7-portowy</name>            <price>159.00</price> <category>Akcesoria</category> <stock>41</stock></product>
+    <product><sku>SKU-018</sku><name>Podkladka pod mysz XXL</name>       <price>79.00</price>  <category>Peryferia</category> <stock>88</stock></product>
+    <product><sku>SKU-019</sku><name>Statyw na laptop</name>             <price>129.00</price> <category>Akcesoria</category> <stock>33</stock></product>
+    <product><sku>SKU-020</sku><name>Kamera internetowa 4K</name>        <price>599.00</price> <category>Peryferia</category> <stock>19</stock></product>
+    <product><sku>SKU-021</sku><name>Mikrofon Blue Yeti</name>           <price>799.00</price> <category>Audio</category>     <stock>7</stock></product>
+    <product><sku>SKU-022</sku><name>Torba na laptop 15 cali</name>      <price>149.00</price> <category>Akcesoria</category> <stock>5</stock></product>
+    <product><sku>SKU-023</sku><name>Listwa zasilajaca 6-gniazd</name>   <price>89.00</price>  <category>Akcesoria</category> <stock>76</stock></product>
+    <product><sku>SKU-024</sku><name>Uchwyt do monitora</name>           <price>249.00</price> <category>Akcesoria</category> <stock>22</stock></product>
+    <product><sku>SKU-025</sku><name>Mysz bezprzewodowa Microsoft</name> <price>89.00</price>  <category>Peryferia</category> <stock>37</stock></product>
+</catalog>

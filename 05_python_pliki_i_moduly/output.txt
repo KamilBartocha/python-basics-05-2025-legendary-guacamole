@@ -1,0 +1,3 @@
+Hello, Python!
+Second line
+Third line - appended

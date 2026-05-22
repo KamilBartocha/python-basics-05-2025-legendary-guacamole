@@ -1,0 +1,31 @@
+{
+    "catalog": {
+        "product": [
+            {"sku": "SKU-001", "name": "Laptop Dell XPS 15",           "price": "5499.00", "category": "Komputery",  "stock": "12"},
+            {"sku": "SKU-002", "name": "MacBook Air M2",                "price": "6299.00", "category": "Komputery",  "stock": "8"},
+            {"sku": "SKU-003", "name": "Mysz Logitech MX Master 3",     "price": "279.00",  "category": "Peryferia",  "stock": "45"},
+            {"sku": "SKU-004", "name": "Klawiatura Keychron K2",        "price": "449.00",  "category": "Peryferia",  "stock": "23"},
+            {"sku": "SKU-005", "name": "Monitor Samsung 24",            "price": "899.00",  "category": "Monitory",   "stock": "17"},
+            {"sku": "SKU-006", "name": "Sluchawki Sony WH-1000XM5",     "price": "1299.00", "category": "Audio",      "stock": "31"},
+            {"sku": "SKU-007", "name": "Monitor LG 27 cali",            "price": "1199.00", "category": "Monitory",   "stock": "9"},
+            {"sku": "SKU-008", "name": "Webcam Logitech C920",          "price": "349.00",  "category": "Peryferia",  "stock": "54"},
+            {"sku": "SKU-009", "name": "Dysk SSD Samsung 1TB",          "price": "399.00",  "category": "Pamieci",    "stock": "67"},
+            {"sku": "SKU-010", "name": "Laptop Lenovo ThinkPad X1",     "price": "4299.00", "category": "Komputery",  "stock": "6"},
+            {"sku": "SKU-011", "name": "Tablet iPad Air",               "price": "3299.00", "category": "Tablety",    "stock": "14"},
+            {"sku": "SKU-012", "name": "Drukarka HP LaserJet Pro",      "price": "1999.00", "category": "Drukarki",   "stock": "11"},
+            {"sku": "SKU-013", "name": "Router TP-Link AX3000",         "price": "299.00",  "category": "Siec",       "stock": "38"},
+            {"sku": "SKU-014", "name": "Pendrive Kingston 64GB",        "price": "49.00",   "category": "Pamieci",    "stock": "112"},
+            {"sku": "SKU-015", "name": "Powerbank Anker 20000mAh",      "price": "199.00",  "category": "Akcesoria",  "stock": "29"},
+            {"sku": "SKU-016", "name": "Kabel USB-C 2m",                "price": "39.00",   "category": "Akcesoria",  "stock": "203"},
+            {"sku": "SKU-017", "name": "Hub USB 7-portowy",             "price": "159.00",  "category": "Akcesoria",  "stock": "41"},
+            {"sku": "SKU-018", "name": "Podkladka pod mysz XXL",        "price": "79.00",   "category": "Akcesoria",  "stock": "88"},
+            {"sku": "SKU-019", "name": "Statyw na laptop",              "price": "129.00",  "category": "Akcesoria",  "stock": "33"},
+            {"sku": "SKU-020", "name": "Kamera internetowa 4K",         "price": "599.00",  "category": "Peryferia",  "stock": "19"},
+            {"sku": "SKU-021", "name": "Mikrofon Blue Yeti",            "price": "799.00",  "category": "Audio",      "stock": "7"},
+            {"sku": "SKU-022", "name": "Torba na laptop 15 cali",       "price": "149.00",  "category": "Akcesoria",  "stock": "15"},
+            {"sku": "SKU-023", "name": "Listwa zasilajaca 6-gniazd",    "price": "89.00",   "category": "Akcesoria",  "stock": "76"},
+            {"sku": "SKU-024", "name": "Uchwyt do monitora",            "price": "249.00",  "category": "Akcesoria",  "stock": "22"},
+            {"sku": "SKU-025", "name": "Mysz bezprzewodowa Microsoft",  "price": "98.00",   "category": "Peryferia",  "stock": "37"}
+        ]
+    }
+}
