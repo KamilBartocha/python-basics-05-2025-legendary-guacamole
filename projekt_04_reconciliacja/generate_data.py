@@ -43,10 +43,8 @@ for i in range(1, 201):
         "account": ACCOUNT_CODES[i % len(ACCOUNT_CODES)],
     })
 
-# Transactions with amount mismatches (refs 141-150): accounting has different amount
 MISMATCH_REFS = {make_ref(i) for i in range(141, 151)}
 
-# Bank-only transactions (not in accounting): refs 201-210
 bank_only = []
 for i in range(201, 211):
     bank_only.append({
@@ -56,19 +54,15 @@ for i in range(201, 211):
         "company": COMPANIES[i % len(COMPANIES)],
     })
 
-# Bank duplicates: repeat refs 11, 22, 33, 44, 55
 BANK_DUP_REFS = [make_ref(i) for i in (11, 22, 33, 44, 55)]
 bank_dups = [t for t in base if t["ref"] in BANK_DUP_REFS]
 
-# Accounting duplicates: repeat refs 66, 77, 88, 99, 110
 ACC_DUP_REFS = [make_ref(i) for i in (66, 77, 88, 99, 110)]
 acc_dups = [t for t in base if t["ref"] in ACC_DUP_REFS]
 
-# Invalid amount positions in bank (within base rows): refs 31, 32, 33 get bad values
 BANK_INVALID_REFS = {make_ref(i) for i in (61, 62, 63, 64, 65)}
 BANK_INVALID_VALUES = ["n/a", "", "ERROR", "n/a", ""]
 
-# Invalid amount positions in accounting: refs 171, 172, 173
 ACC_INVALID_REFS = {make_ref(i) for i in (171, 172, 173, 174, 175)}
 ACC_INVALID_VALUES = ["ERROR", "", "n/a", "ERROR", ""]
 

@@ -132,7 +132,7 @@ transaction = {
 
 # ─── Zadanie 1 ────────────────────────────────────────────────────────────────
 def encode_alpha(value, length):
-    """Encode a text value into a fixed-width, left-justified, space-padded string.
+    """Encode a text value into a fixed-width, left-justified, space-padded str.
 
     Converts value to str, then truncates to length characters if too long,
     or pads with spaces on the right if too short.
