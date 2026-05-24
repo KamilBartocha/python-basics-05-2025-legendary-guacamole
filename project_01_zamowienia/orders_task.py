@@ -42,7 +42,11 @@ def filter_by_status(orders, status):
     Example:
         filter_by_status(orders, "completed") -> [order1, order3, ...]
     """
-    pass
+    result = []
+    for order in orders:
+        if order['status'] == status:
+            result.append(order)
+    return result
 
 
 # ─── Zadanie 2 ─ Obliczanie łacznego przychodu ze zrealizowanych zamowien ─────

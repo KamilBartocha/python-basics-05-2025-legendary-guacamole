@@ -1,3 +1,5 @@
+import time
+
 f = open('05_python_pliki_i_moduly/05_file_text.txt', 'r', encoding='UTF-8')
 print(f)
 content = f.read()
@@ -78,3 +80,7 @@ file.close()
 with open('05_python_pliki_i_moduly/05_file_text_3.txt', 'w') as file:
     file.write("blok with")
 
+time.sleep(100)
+print("aa")
+
+import requests
