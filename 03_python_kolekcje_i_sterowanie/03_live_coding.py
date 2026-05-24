@@ -32,3 +32,55 @@ print(list_d)
     [3, 3, 3]
  ]
 """
+print("\n\n\n\n\n\n")
+
+
+pesel = 2131231231
+
+if len(str(pesel)) != 11:
+    print("pesel nie poprawny")
+    print(f"{len(str(pesel))} != 11")
+else:
+    print("pesel poprawny!")
+print("Poza IF-ELSE")
+
+
+# operacja1 = input("Podaj operację: Wpłać lub Wypłać: ")
+
+# if operacja1 == "Wpłać":
+#     operacja2 = input("PLN or EUR: ")
+#     if operacja2 == "PLN":
+#         print("Wprowadz banknoty: ")
+#     elif operacja2 == "EUR":
+#         print("Tylko PLN jest dozwolone")
+#     else:
+#         print("Niedozwolona opcja.")
+# elif operacja1 == "Wypłać":
+#     operacja3 = input("Karta or BLIK: ")
+#     if operacja3 == "Karta":
+#         print("Wprowadz kartę:")
+#     elif operacja3 == "BLIK":
+#         print("Podaj Blik:")
+#     else:
+#         print("Niedozwolona opcja.")
+# else:
+#     print("Niedozwolona opcja, tylko Wpłać lub Wypłać.")
+
+
+
+
+pesel = 21312312310
+
+is_pesel_valid = True if len(str(pesel)) == 11 else False
+print(is_pesel_valid)
+
+
+
+names = ["Ala", "Bonifacy", 2, "Ola"]
+result = []
+for name in names:
+    if isinstance(name, int):
+        continue
+    result.append(name)
+
+print(result)

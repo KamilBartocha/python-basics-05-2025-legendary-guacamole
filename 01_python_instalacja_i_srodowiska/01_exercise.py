@@ -8,6 +8,8 @@
 
 weight = 75
 height = 1.80
+bmi = weight * height ** 2
+print(round(bmi, 2))
 
 
 # ─── Ćwiczenie 2 ──────────────────────────────────────────────────────────────
@@ -18,7 +20,10 @@ height = 1.80
 # Wypisz wszystkie trzy wartości: "C=20  F=68.0  K=293.15"
 
 temp_celsius = 20
+F = temp_celsius * (9/5) + 32
+K = temp_celsius + 273.15
 
+print(f"C={temp_celsius}, F={F}, K={K}")
 
 # ─── Ćwiczenie 3 ──────────────────────────────────────────────────────────────
 # Algorytm: przelicz sekundy na format HH:MM:SS.
@@ -27,3 +32,16 @@ temp_celsius = 20
 # Wskazówka: użyj operatorów // i %
 
 total_seconds = 3661
+seconds = total_seconds % 60
+minutes_tmp = total_seconds // 60
+
+minutes = minutes_tmp % 60
+hours = minutes_tmp // 60
+
+seconds = "0" + str(seconds)
+minutes = "0" + str(minutes)
+hours = "0" + str(hours)
+
+result = hours[-2:] + ":" + minutes[-2:] + ":" + seconds[-2:]
+
+print(result)
