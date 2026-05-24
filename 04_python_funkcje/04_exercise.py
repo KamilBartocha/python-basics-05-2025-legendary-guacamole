@@ -5,7 +5,7 @@
 # Napisz funkcję greet(name, greeting="Hello"), która zwraca napis w formacie
 # "{greeting}, {name}!". Parametr greeting ma wartość domyślną "Hello".
 def greet(name, greeting="Hello"):
-    pass
+    return f"{greeting}, {name}!"
 
 
 def test_greet():
@@ -13,6 +13,7 @@ def test_greet():
     assert greet("Bob", "Hi") == "Hi, Bob!"
     assert greet("Eve", greeting="Hey") == "Hey, Eve!"
 
+test_greet()
 
 # ─── Ćwiczenie 2 ──────────────────────────────────────────────────────────────
 # Napisz funkcję calculate_bmi(weight, height) obliczającą wskaźnik BMI.
@@ -30,6 +31,7 @@ def test_calculate_bmi():
     assert calculate_bmi.__doc__ is not None
     assert len(calculate_bmi.__doc__.strip()) > 5
 
+test_calculate_bmi()
 
 # ─── Ćwiczenie 3 ──────────────────────────────────────────────────────────────
 # Napisz funkcję total(*args), która zwraca sumę wszystkich przekazanych liczb.
