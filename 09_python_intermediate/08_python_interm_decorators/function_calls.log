@@ -1,0 +1,6 @@
+2025-03-29 14:19:21,494 - INFO - Wywołanie funkcji: add
+2025-03-29 14:19:21,495 - INFO - Argumenty: args=(3, 5), kwargs={}
+2025-03-29 14:19:21,495 - WARNING - Wynik: 8
+2025-03-29 14:19:21,495 - INFO - Wywołanie funkcji: multiply
+2025-03-29 14:19:21,495 - INFO - Argumenty: args=(4, 7), kwargs={}
+2025-03-29 14:19:21,495 - WARNING - Wynik: 28

@@ -1,0 +1,14 @@
+{
+    "root": {
+        "item": [
+            {
+                "name": "Item 1",
+                "price": "10.00"
+            },
+            {
+                "name": "Item 2",
+                "price": "20.00"
+            }
+        ]
+    }
+}

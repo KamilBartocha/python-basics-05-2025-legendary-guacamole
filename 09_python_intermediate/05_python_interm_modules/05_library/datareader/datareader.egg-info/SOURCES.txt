@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+datareader/__init__.py
+datareader/json_reader.py
+datareader/xml_reader.py
+datareader.egg-info/PKG-INFO
+datareader.egg-info/SOURCES.txt
+datareader.egg-info/dependency_links.txt
+datareader.egg-info/top_level.txt
+tests/test_json_reader.py
+tests/test_xml_reader.py
